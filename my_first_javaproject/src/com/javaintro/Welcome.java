@@ -1,25 +1,24 @@
 package com.javaintro;
 
-//import java.util.Scanner;
-/*
- *   * * *
- *   * * *
- *   * * *
- * */
+
 public class Welcome {
 
-	public static void main(String[] args) {
-		 
-		for (int i=1;i<=5 ;i++ ) 
-		  { 
-		   for (int j=1;j<=5 ;j++ ) 
-		   { 
-		    System.out.print(" "+j+" "); 
-		   } 
-		   System.out.println(); 
-		  } 
+	public static void main(String[] args)  
+	 { 
+		
+		System.out.println('b');
+		int a=5124;
+		int b=0;
+		while(a>0) {
+			
+			b=b+(a/10);
+			
+			
 		}
-}
+		System.out.println(b);
+		}
+	 }
+//}
 	
 	
 	

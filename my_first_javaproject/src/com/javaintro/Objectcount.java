@@ -1,6 +1,6 @@
 package com.javaintro;
 
-public class Employee {
+public class Objectcount {
 
 	static int count=0;
 	
@@ -10,8 +10,8 @@ public class Employee {
 	
 	
 	public static void main(String[] args) {
-		Employee e= new Employee();
-		Employee e1= new Employee();
+		Objectcount o= new Objectcount();
+		Objectcount o1= new Objectcount();
 		System.out.println(count);
 	}
 
